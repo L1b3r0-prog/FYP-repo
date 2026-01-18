@@ -92,7 +92,7 @@ export default function Home() {
       <div className="bg-gray-200 py-20">
         <h2 className="flex text-2xl font-bold mb-15 justify-center">Choose Your Plan</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto mt-10 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto mt-10 gap-40">
           { /* Free plan */ }
           <div className="bg-white rounded-xl shadow-lg p-8 text-center h-[650px] flex flex-col justify-between">
             <div>
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
 
             <div className="h-[300px]">
-              <ul className="text-sm text-gray-500 space-x-40 space-y-8 mt-10 mb-10 text-left inline-block">
+              <ul className="text-sm text-gray-500 space-x-40 space-y-8 mb-10 text-left inline-block">
                 <li className="flex items-center gap-2">
                   <CheckCircleIcon className="w-4 h-4 text-green-500" />
                   Basic meal tracking
@@ -142,7 +142,7 @@ export default function Home() {
               </div>
 
               <div className="h-[300px]">
-                <ul className="text-sm text-gray-500 space-x-40 space-y-8 mt-10 mb-10 text-left inline-block">
+                <ul className="text-sm text-gray-500 space-x-40 space-y-8 mb-10 text-left inline-block">
                   <li className="flex items-center gap-2">
                     <CheckCircleIcon className="w-4 h-4 text-green-500" />
                     Everything in Free
