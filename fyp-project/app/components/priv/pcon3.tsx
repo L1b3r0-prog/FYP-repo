@@ -21,7 +21,7 @@ export default function Pcon3() {
                 <div className="flex flex-col">
                     <div className="text-gray-500 space-y-2">
                         <h1 className="text-3xl text-black font-bold">10. Data Retention</h1>
-                        <h1>We reatain your personal information for as long as necessary to:</h1>
+                        <h1>We retain your personal information for as long as necessary to:</h1>
                         <h1>•Provide our services and fulfill the purposes outlined in this policy</h1>
                         <h1>•Comply with legal obligations and resolve disputes</h1>
                         <h1>•Enforce our agreements and protect our rights</h1>
@@ -56,7 +56,7 @@ export default function Pcon3() {
                         <h1 className="text-gray-50">We are comitted to protecting your personal information and being transparent about how we use it.</h1>
                         
                     </div>
-                    <Link to="/tos.tsx" className="self-center rounded-xl border-2 border-white py-4 w-[250px] text-white text-center ml-50 mt-5">
+                    <Link to="/tos" className="self-center rounded-xl border-2 border-white py-4 w-[250px] text-white text-center ml-57 mt-5 hover:bg-gray-300 hover:text-black transistion">
                             View Terms of Service
                     </Link>
                 </div>
