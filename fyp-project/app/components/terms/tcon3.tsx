@@ -62,10 +62,10 @@ export default function Tcon3() {
                 <div className="flex flex-col">
                     <div className="text-gray-500 space-y-2">
                         <h1 className="text-3xl text-black font-bold">14. Governing Law and Dispute Resolution</h1>
-                        <h1>These Terms shall be governed by and construed in accordance with the laws of [You Jurisdiction], without regard to conflict of law <br />
+                        <h1>These Terms shall be governed by and construed in accordance with the laws of your jurisdiction, without regard to conflict of law <br />
                         principles.</h1>
                         <h1>Any disputes arising from these Terms or the Service shall be resolved through binding arbitration in accordance with the rules of <br />
-                        [Arbitration Organization]. The arbitration shall take place in [Location], and judgement on the award may be entered in any court having <br />
+                        your organization. The arbitration shall take place in your country, and judgement on the award may be entered in any court having <br />
                         jurisdiction.</h1>
                         <h1>You agree to waive any right to a jury trial or to participate in a class action lawsuit.</h1>
                     </div>
