@@ -21,9 +21,6 @@ export default function Navbar() {
                         <NavLink to="/team" className="text-black hover:text-green-500 text-lg px-4 py-2">
                             Team
                         </NavLink>
-                        <NavLink to="/document" className="text-black hover:text-green-500 text-lg px-4 py-2">
-                            Document
-                        </NavLink>
                     </nav>
                 </div>
             </div>
