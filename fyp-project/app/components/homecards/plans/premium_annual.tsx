@@ -12,5 +12,5 @@ const features = [
 ];
 
 export default function PremiumPlan() {
-    return <PlanCard name="Premium" price="$9.99" period="per month" features={features} />;
+    return <PlanCard name="Premium" price="$59.99" period="per year" badge="Save 28%" features={features} />;
 }

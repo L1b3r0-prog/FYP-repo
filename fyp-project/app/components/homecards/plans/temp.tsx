@@ -10,10 +10,11 @@ type PlanCardProps = {
     price: string;
     period: string;
     highlight?: boolean;
+    badge?: string;
     features: Feature[];
 };
 
-export default function PlanCard({ name, price, period, highlight = false, features }: PlanCardProps) {
+export default function PlanCard({ name, price, period, highlight = false, badge, features }: PlanCardProps) {
     return (
         <div className={`flex flex-col rounded-2xl p-8 flex-1 shadow-md transition-transform hover:-translate-y-1 ${
             highlight
@@ -25,9 +26,13 @@ export default function PlanCard({ name, price, period, highlight = false, featu
                     <h3 className={`text-xl font-bold ${highlight ? "text-white" : "text-gray-900"}`}>
                         {name}
                     </h3>
-                    {highlight && (
-                        <span className="bg-white text-green-600 text-xs font-semibold px-3 py-1 rounded-full">
-                            Popular
+                    {(highlight || badge) && (
+                        <span className={`text-xs font-semibold px-3 py-1 rounded-full ${
+                            highlight
+                                ? "bg-white text-green-600"
+                                : "bg-green-100 text-green-600"
+                        }`}>
+                            {highlight ? "Popular" : badge}
                         </span>
                     )}
                 </div>
