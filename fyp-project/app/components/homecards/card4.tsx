@@ -10,7 +10,7 @@ export default function Fourth() {
                 <video
                     className="w-full h-full"
                     controls
-                    poster="/videos/thumbnail.png"  {/* optional: shows before play */}
+                    poster="/videos/thumbnail.png"
                 >
                     <source src="" type="video/mp4" />
                     Your browser does not support the video tag.
