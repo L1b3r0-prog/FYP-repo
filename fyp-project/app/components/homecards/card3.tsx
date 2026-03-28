@@ -1,6 +1,6 @@
-import FreePlan from "./plans/freemium";
-import ProPlan from "./plans/premium";
-import PremiumPlan from "./plans/premium_annual";
+import FreePlan from "../plans/freemium";
+import ProPlan from "../plans/premium";
+import PremiumPlan from "../plans/premium_annual";
 
 export default function Third() {
     return (
