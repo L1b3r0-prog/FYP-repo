@@ -1,6 +1,6 @@
 export default function Fourth() {
     return (
-        <div className="py-16 px-4 bg-gray-50">
+        <div className="py-16 px-4 bg-gray-50 pt-50">
             <div className="text-center mb-10">
                 <h2 className="text-4xl font-bold text-gray-900 mb-4">See NutriTrack in Action</h2>
                 <p className="text-gray-500 text-lg">Watch how easy it is to track your nutrition</p>
