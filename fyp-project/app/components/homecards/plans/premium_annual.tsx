@@ -1,14 +1,11 @@
 import PlanCard from "./temp";
 
 const features = [
-    { label: "Calorie Tracking", included: true },
-    { label: "Basic Nutrition Info", included: true },
-    { label: "Meal Logging", included: true },
-    { label: "Local Food Database", included: true },
-    { label: "AI Meal Recommendations", included: true },
-    { label: "Progress Analytics", included: true },
-    { label: "Custom Diet Plans", included: true },
-    { label: "Priority Support", included: true },
+    { label: "Everything in premium", included: true },
+    { label: "Best value plan", included: true },
+    { label: "Priority customer support", included: true },
+    { label: "Early access to new features", included: true },
+    { label: "Cancel anytime", included: true }
 ];
 
 export default function PremiumPlan() {
