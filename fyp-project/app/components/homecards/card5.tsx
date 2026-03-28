@@ -1,6 +1,6 @@
 import { useRef } from "react";
-import TestimonialCard from "../testimonials/data";
-import { testimonials } from "../testimonials/testcard";
+import TestimonialCard from "../testimonials/testcard";
+import { testimonials } from "../testimonials/data";
 
 export default function Fifth() {
     const scrollRef = useRef<HTMLDivElement>(null);
