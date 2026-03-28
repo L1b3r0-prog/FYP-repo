@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 type Feature = {
     label: string;
     included: boolean;
@@ -39,7 +41,7 @@ export default function PlanCard({ name, price, period, highlight = false, featu
                 </div>
             </div>
 
-            <ul className="flex flex-col gap-3 mb-8 flex-1">
+            <ul className="flex flex-col gap-3 mb-8 h-96 overflow-y-auto pr-1">
                 {features.map((feature) => (
                     <li key={feature.label} className="flex items-center gap-3">
                         {feature.included ? (
@@ -68,13 +70,16 @@ export default function PlanCard({ name, price, period, highlight = false, featu
                 ))}
             </ul>
 
-            <button className={`w-full py-3 rounded-xl font-semibold text-sm transition-colors ${
-                highlight
-                    ? "bg-white text-green-600 hover:bg-green-50"
-                    : "bg-green-500 text-white hover:bg-green-600"
-            }`}>
+            <NavLink
+                to="/download"
+                className={`w-full py-3 rounded-xl font-semibold text-sm transition-colors text-center ${
+                    highlight
+                        ? "bg-white text-green-600 hover:bg-green-50"
+                        : "bg-green-500 text-white hover:bg-green-600"
+                }`}
+            >
                 Get Started
-            </button>
+            </NavLink>
         </div>
     );
 }
