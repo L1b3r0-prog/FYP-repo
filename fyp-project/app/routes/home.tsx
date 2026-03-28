@@ -2,6 +2,7 @@ import type { Route } from "./+types/home";
 
 import First from "../components/homecards/card1"; 
 import Second from "../components/homecards/card2";
+import Third from "../components/homecards/card3";
 
 export function meta( {}: Route.MetaArgs) {
   return [
