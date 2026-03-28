@@ -16,7 +16,6 @@ export default function Fifth() {
             {/* Header */}
             <div className="text-center mb-10">
                 <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Users Say</h2>
-                <p className="text-gray-500 text-lg">Real results from real people</p>
             </div>
 
             {/* Scroll container + arrows */}
