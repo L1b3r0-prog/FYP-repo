@@ -20,7 +20,9 @@ export default function Home() {
 
       { /* This is all the icons and the text below */ }
       <Second />
-      
+
+      { /* This is the subscription comparison */ }
+      <Third />
     </div>
   )
 }
