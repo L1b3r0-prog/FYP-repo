@@ -17,11 +17,12 @@ const features = [
     { label: "AI photo meal recognition", included: false },
     { label: "Unlimited meal recommendations", included: false },
     { label: "Meal plan with grocery lists", included: false },
-    { label: "Advanced food filtering", incldued: false },
+    { label: "Advanced food filtering", included: false },
     { label: "Macro adjustments to the gram", included: false },
     { label: "Certified nutrionist tips", included: false },
     { label: "Save favourite meals", included: false },
-    { label: "No ads", inlcuded: false }
+    { label: "Access to Nutrionist articles & videos", included: false},
+    { label: "No ads", included: false }
 ];
 
 export default function FreePlan() {

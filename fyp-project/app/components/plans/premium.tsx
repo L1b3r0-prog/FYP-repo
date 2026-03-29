@@ -12,9 +12,10 @@ const features = [
     { label: "Dietary reports with visualizations", included: true },
     { label: "No ads", included: true },
     { label: "Priority customer support", included: true },
+    { label: "Access to Nutrionist articles & videos", included: true},
     { label: "Cancel anytime", included: true }
 ];
 
 export default function ProPlan() {
-    return <PlanCard name="Pro" price="$6.99" period="per month" highlight features={features} />;
+    return <PlanCard name="Premium" price="$6.99" period="per month" highlight features={features} />;
 }
