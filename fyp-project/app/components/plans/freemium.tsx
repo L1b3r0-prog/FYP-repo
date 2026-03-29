@@ -21,8 +21,7 @@ const features = [
     { label: "Macro adjustments to the gram", included: false },
     { label: "Certified nutrionist tips", included: false },
     { label: "Save favourite meals", included: false },
-    { label: "Access to Nutrionist articles & videos", included: false},
-    { label: "No ads", included: false }
+    { label: "Access to Nutrionist articles & videos", included: false}
 ];
 
 export default function FreePlan() {
