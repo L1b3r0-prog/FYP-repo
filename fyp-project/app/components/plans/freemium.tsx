@@ -12,8 +12,6 @@ const features = [
     { label: "Progress reports", included: true },
     { label: "Limited meal recommendations (2days/week)", included: true },
     { label: "General healthy eating tips", included: true },
-    { label: "Edit profile, change password", included: true },
-    { label: "Log out and delete account", included: true },
     { label: "AI photo meal recognition", included: false },
     { label: "Unlimited meal recommendations", included: false },
     { label: "Meal plan with grocery lists", included: false },
@@ -21,7 +19,6 @@ const features = [
     { label: "Macro adjustments to the gram", included: false },
     { label: "Certified nutrionist tips", included: false },
     { label: "Save favourite meals", included: false },
-    { label: "Access to Nutrionist articles & videos", included: false}
 ];
 
 export default function FreePlan() {

@@ -7,12 +7,10 @@ const features = [
     { label: "Meal plan creation with grocery lists", included: true },
     { label: "Advanced food filtering", included: true },
     { label: "Macro adjustments to the gram", included: true },
-    { label: "Certified nutrionist tips", included: true },
+    { label: "Certified Nutritionist tips", included: true },
     { label: "Save favourite meals", included: true },
-    { label: "Dietary reports with visualizations", included: true },
-    { label: "No ads", included: true },
     { label: "Priority customer support", included: true },
-    { label: "Access to Nutrionist articles & videos", included: true},
+    { label: "Book text-based consultations with professional Nutritionists", included: true },
     { label: "Cancel anytime", included: true }
 ];
 
