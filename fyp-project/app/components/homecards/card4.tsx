@@ -6,13 +6,13 @@ export default function Fourth() {
                 <p className="text-gray-500 text-lg">Watch how easy it is to track your nutrition</p>
             </div>
 
-            <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
+            <div className="max-w-sm mx-auto rounded-2xl overflow-hidden shadow-xl">
                 <video
-                    className="w-full h-full"
+                    className="w-full h-auto"
                     controls
-                    poster="/videos/thumbnail.png"
+                    playsInline
                 >
-                    <source src="" type="video/mp4" />
+                    <source src="/public/IMG_7514.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
