@@ -12,7 +12,7 @@ export default function Fourth() {
                     controls
                     playsInline
                 >
-                    <source src="/public/videos/IMG_7514.mp4" type="video/mp4" />
+                    <source src="https://player.cloudinary.com/embed/?cloud_name=dpodbd3rl&public_id=IMG_7514_optczh" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
