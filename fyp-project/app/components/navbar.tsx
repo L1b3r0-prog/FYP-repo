@@ -21,9 +21,11 @@ export default function Navbar() {
                         <NavLink to="/team" className="text-black hover:text-green-500 text-lg px-4 py-2">
                             Team
                         </NavLink>
-                        <NavLink to="/download" className="text-white hover:text-black text-lg bg-green-500 border-2 border-green-500 rounded-lg px-4 py-2">
+                        <a href="https://expo.dev/artifacts/eas/u2PFLW19ZBYEM1iooHLbMv.apk"
+                                download
+                                className="text-white hover:text-black text-lg bg-green-500 border-2 border-green-500 rounded-lg px-4 py-2">
                             Download
-                        </NavLink>
+                        </a>
                     </nav>
                 </div>
             </div>
