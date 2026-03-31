@@ -5,6 +5,9 @@ import Second from "../components/homecards/card2";
 import Third from "../components/homecards/card3";
 import Fourth from "../components/homecards/card4";
 import Fifth from "../components/homecards/card5";
+import Sixth from "../components/homecards/card6";
+import Seventh from "../components/homecards/card7";
+import Eighth from "../components/homecards/card8";
 
 export function meta( {}: Route.MetaArgs) {
   return [
@@ -24,14 +27,23 @@ export default function Home() {
       { /* This is all the icons and the text below */ }
       <Second />
 
-      { /* This is the subscription comparison */ }
+
       <Third />
 
-      { /* This is the video section */ }
+
       <Fourth />
 
-      { /* Thsi is the testimonial */ }
+      { /* This is the subscription comparison */ }
       <Fifth />
+
+      { /* This is the video section */ }
+      <Sixth />
+
+      { /* Thsi is the testimonial */ }
+      <Seventh />
+
+
+      <Eighth />
     </div>
   )
 }

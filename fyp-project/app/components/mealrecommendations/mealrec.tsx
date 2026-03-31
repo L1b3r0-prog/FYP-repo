@@ -1,0 +1,48 @@
+export const foods = [
+  {
+    name: "Chicken Rice",
+    cuisine: "Hawker",
+    calories: 450,
+    protein: 32,
+    carbs: 52,
+    fat: 10,
+    emoji: "🍚",
+    tag: "Local Favourite",
+    tagColor: "bg-emerald-100 text-emerald-700",
+  },
+  {
+    name: "Nasi Lemak",
+    cuisine: "Malay",
+    calories: 510,
+    protein: 18,
+    carbs: 58,
+    fat: 24,
+    emoji: "🌿",
+    tag: "Local Favourite",
+    tagColor: "bg-emerald-100 text-emerald-700",
+  },
+  {
+    name: "Roti Prata",
+    cuisine: "Indian",
+    calories: 310,
+    protein: 9,
+    carbs: 42,
+    fat: 13,
+    emoji: "🫓",
+    tag: "Low Calorie",
+    tagColor: "bg-blue-100 text-blue-700",
+  },
+  {
+    name: "Salmon Don",
+    cuisine: "Japanese",
+    calories: 520,
+    protein: 38,
+    carbs: 55,
+    fat: 14,
+    emoji: "🍣",
+    tag: "High Protein",
+    tagColor: "bg-orange-100 text-orange-700",
+  },
+];
+
+export const cuisineFilters = ["All", "Hawker", "Malay", "Indian", "Japanese"];
