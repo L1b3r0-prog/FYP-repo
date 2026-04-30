@@ -22,5 +22,5 @@ const features = [
 ];
 
 export default function FreePlan() {
-    return <PlanCard name="Free" price="$0" period="forever" features={features} />;
+    return <PlanCard name="Free" price="S$0" period="forever" features={features} />;
 }

@@ -15,5 +15,5 @@ const features = [
 ];
 
 export default function ProPlan() {
-    return <PlanCard name="Premium" price="$6.99" period="per month" highlight features={features} />;
+    return <PlanCard name="Premium" price="S$9.90" period="per month" highlight features={features} />;
 }
