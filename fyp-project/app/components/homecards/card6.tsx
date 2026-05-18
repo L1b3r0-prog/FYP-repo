@@ -12,7 +12,7 @@ export default function Sixth() {
                     controls
                     playsInline
                 >
-                    <source src="https://res.cloudinary.com/dpodbd3rl/video/upload/v1774869622/IMG_7514_optczh.mp4" type="video/mp4" />
+                    <source src="https://res.cloudinary.com/dpodbd3rl/video/upload/v1779078246/IMG_9149_xol8hk.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
